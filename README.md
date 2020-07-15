@@ -1,4 +1,4 @@
-# API_Automation
+# API_Pytest
 基于Pytest+request+Allure的接口自动化框架
 
 ----
@@ -10,11 +10,10 @@
 
 `Email.py`封装smtplib方法，运行结果发送邮件通知
 
-`Mysql.py`封装mysql操作方法
-
 `Session.py` 封装获取登录token/cookies方法
+
+`Tools.py` 封装常用工具方法(读取yaml)
 
 `run.py` 核心代码,定义并执行用例集，生成报告
 
 ----
-# API_Pytest

@@ -8,7 +8,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="E:/hrun_auto_test" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1dyhL9byd66WMuotYjuAAyiH1js" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -20,7 +20,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Python" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunManager" selected="Python.Session">
     <configuration name="Session" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -153,7 +153,7 @@
       <option name="presentableId" value="Default" />
       <updated>1593403181284</updated>
       <workItem from="1593403183932" duration="8737000" />
-      <workItem from="1594179654895" duration="12494000" />
+      <workItem from="1594179654895" duration="13418000" />
     </task>
     <servers />
   </component>
@@ -173,6 +173,10 @@
       <screen x="1922" y="0" width="1920" height="1040" />
     </state>
     <state x="2590" y="148" key="#pytest_for_test_assay.TestAssay/0.0.1922.1040/1922.0.1920.1040@1922.0.1920.1040" timestamp="1593498338163" />
+    <state x="561" y="112" key="CommitChangelistDialog2" timestamp="1594778249375">
+      <screen x="0" y="0" width="1922" height="1040" />
+    </state>
+    <state x="561" y="112" key="CommitChangelistDialog2/0.0.1922.1040/1922.0.1920.1040@0.0.1922.1040" timestamp="1594778249375" />
     <state x="2661" y="261" key="FileChooserDialogImpl" timestamp="1594724294165">
       <screen x="1922" y="0" width="1920" height="1040" />
     </state>
@@ -193,13 +197,15 @@
       <screen x="1922" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="212" key="GridCell.Tab.0.right/0.0.1922.1040/1922.0.1920.1040@1922.0.1920.1040" timestamp="1594638671323" />
-    <state x="2401" y="145" key="SettingsEditor" timestamp="1594293675224">
-      <screen x="1922" y="0" width="1920" height="1040" />
+    <state x="479" y="145" key="SettingsEditor" timestamp="1594778157389">
+      <screen x="0" y="0" width="1922" height="1040" />
     </state>
+    <state x="479" y="145" key="SettingsEditor/0.0.1922.1040/1922.0.1920.1040@0.0.1922.1040" timestamp="1594778157389" />
     <state x="2401" y="145" key="SettingsEditor/0.0.1922.1040/1922.0.1920.1040@1922.0.1920.1040" timestamp="1594293675224" />
-    <state x="2545" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1593403333219">
-      <screen x="1922" y="0" width="1920" height="1040" />
+    <state x="624" y="225" width="673" height="678" key="search.everywhere.popup" timestamp="1594778047603">
+      <screen x="0" y="0" width="1922" height="1040" />
     </state>
+    <state x="624" y="225" width="673" height="678" key="search.everywhere.popup/0.0.1922.1040/1922.0.1920.1040@0.0.1922.1040" timestamp="1594778047603" />
     <state x="2545" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1922.1040/1922.0.1920.1040@1922.0.1920.1040" timestamp="1593403333219" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
