@@ -3,9 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/API_Automation.iml" filepath="$PROJECT_DIR$/.idea/API_Automation.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../aff-tools-easy/.idea/aff-tools.iml" filepath="$PROJECT_DIR$/../aff-tools-easy/.idea/aff-tools.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../study_sample/.idea/study_1.iml" filepath="$PROJECT_DIR$/../study_sample/.idea/study_1.iml" />
-      <module fileurl="file://$USER_HOME$/Downloads/code/tasks_proj/.idea/tasks_proj.iml" filepath="$USER_HOME$/Downloads/code/tasks_proj/.idea/tasks_proj.iml" />
+      <module fileurl="file://E:/hrun_auto_test/.idea/hrun_auto_test.iml" filepath="E:/hrun_auto_test/.idea/hrun_auto_test.iml" />
     </modules>
   </component>
 </project>

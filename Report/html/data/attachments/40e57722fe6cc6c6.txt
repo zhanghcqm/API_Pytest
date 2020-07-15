@@ -1,0 +1,2 @@
+INFO     TestMaintain:test_maintain.py:44 ------创建保养计划列表接口-----
+INFO     TestMaintain:test_maintain.py:47 创建接口请求结果：处理成功

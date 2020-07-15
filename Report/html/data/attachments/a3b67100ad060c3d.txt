@@ -1,0 +1,2 @@
+INFO     TestAssay:test_assay.py:30 ------获取检定计划列表接口-----
+INFO     TestAssay:test_assay.py:32 默认查询接口请求结果：处理成功

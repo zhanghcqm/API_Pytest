@@ -1,0 +1,146 @@
+{
+  "uid" : "10cfc531325ee8be",
+  "name" : "创建保养计划",
+  "fullName" : "TestCase.maintain.test_maintain.TestMaintain#test_create_maintain",
+  "historyId" : "69c760fb21638dd44b9e89a5b7f79b4a",
+  "time" : {
+    "start" : 1593402488296,
+    "stop" : 1593402488445,
+    "duration" : 149
+  },
+  "description" : "\n        创建保养计划正向流程\n        ",
+  "descriptionHtml" : "<pre><code>    创建保养计划正向流程\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "gen_random_string",
+    "time" : {
+      "start" : 1593402485891,
+      "stop" : 1593402485891,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1593402488158,
+      "stop" : 1593402488158,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "gen_now_time",
+    "time" : {
+      "start" : 1593402485891,
+      "stop" : 1593402485891,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "\n        创建保养计划正向流程\n        ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1fc04798b90f37f4",
+      "name" : "log",
+      "source" : "1fc04798b90f37f4.txt",
+      "type" : "text/plain",
+      "size" : 165
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1593402488826,
+      "stop" : 1593402488826,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "保养计划流程用例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase.maintain"
+  }, {
+    "name" : "suite",
+    "value" : "test_maintain"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMaintain"
+  }, {
+    "name" : "host",
+    "value" : "58SUO076"
+  }, {
+    "name" : "thread",
+    "value" : "27736-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.maintain.test_maintain"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d5190c30a99f2de2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593401827459,
+        "stop" : 1593401827615,
+        "duration" : 156
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "10cfc531325ee8be.json",
+  "parameterValues" : [ ]
+}

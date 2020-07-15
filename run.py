@@ -1,28 +1,26 @@
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# @Time    : 2018/7/31 上午10:42
-# @Author  : WangJuan
-# @File    : run.py
+# @Time: 2020/6/24 16:50
+# @Author: zhc
 
 """
 运行用例集：
-    python3 run.py
-
-# '--allure_severities=critical, blocker'
-# '--allure_stories=测试模块_demo1, 测试模块_demo2'
-# '--allure_features=测试features'
-
+    python run.py
 """
 
 import pytest
 
-from Common import Log
+from Common.Log import Logger
 from Common import Shell
 from Conf import Config
-from Common import Email
+from Common.Session import Session
 
 if __name__ == '__main__':
+    log = Logger(logger="run").getlog()
+    Session().get_token()
+    log.info('先登录进行全局token认证')
+
     conf = Config.Config()
-    log = Log.MyLog()
     log.info('初始化配置文件, path=' + conf.conf_path)
 
     shell = Shell.Shell()
@@ -33,7 +31,7 @@ if __name__ == '__main__':
     args = ['-s', '-q', '--alluredir', xml_report_path]
     pytest.main(args)
 
-    cmd = 'allure generate %s -o %s' % (xml_report_path, html_report_path)
+    cmd = 'allure generate %s -o %s --clean' % (xml_report_path, html_report_path)
 
     try:
         shell.invoke(cmd)
@@ -41,10 +39,10 @@ if __name__ == '__main__':
         log.error('执行用例失败，请检查环境配置')
         raise
 
-    try:
-        mail = Email.SendMail()
-        mail.sendMail()
-    except Exception as e:
-        log.error('发送邮件失败，请检查邮件配置')
-        raise
+    # try:
+    #     mail = Email.SendMail()
+    #     mail.sendMail()
+    # except Exception as e:
+    #     log.error('发送邮件失败，请检查邮件配置')
+    #     raise
 

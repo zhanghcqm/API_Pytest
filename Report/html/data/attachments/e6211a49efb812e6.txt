@@ -1,0 +1,2 @@
+INFO     TestAssay:test_assay.py:41 ------创建检定计划接口-----
+INFO     TestAssay:test_assay.py:44 创建接口请求结果：处理成功

@@ -1,0 +1,7 @@
+test_login_data:
+  -  ["zhcpc6","Password888","bearer"]
+  -  ["zhcpc","Password888","登录失败，请检查参数！"]
+  -  ["zhcpc6","8","登录失败，请检查参数！"]
+  -  ["zhcpc6","","登录失败，请检查参数！"]
+  -  ["","Password888","登录失败，请检查参数！"]
+  -  ["zhcpc 6","Password888","登录失败，请检查参数！"]

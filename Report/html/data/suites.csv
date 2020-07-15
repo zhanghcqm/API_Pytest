@@ -1,0 +1,25 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Jun 29 11:48:06 CST 2020","Mon Jun 29 11:48:06 CST 2020","283","TestCase.login","test_login","TestLogin","","","test_login[正常登录]",""
+"passed","Mon Jun 29 11:48:08 CST 2020","Mon Jun 29 11:48:08 CST 2020","149","TestCase.maintain","test_maintain","TestMaintain","","","创建保养计划","
+        创建保养计划正向流程
+        "
+"passed","Mon Jun 29 11:48:05 CST 2020","Mon Jun 29 11:48:05 CST 2020","120","TestCase.assay","test_assay","TestAssay","","","默认查询检定计划列表","
+        默认查询
+        "
+"passed","Mon Jun 29 11:48:07 CST 2020","Mon Jun 29 11:48:07 CST 2020","279","TestCase.login","test_login","TestLogin","","","test_login[密码为空登录]",""
+"passed","Mon Jun 29 11:48:06 CST 2020","Mon Jun 29 11:48:07 CST 2020","294","TestCase.login","test_login","TestLogin","","","test_login[密码错误登录]",""
+"passed","Mon Jun 29 11:48:07 CST 2020","Mon Jun 29 11:48:08 CST 2020","275","TestCase.login","test_login","TestLogin","","","test_login[账号存在空格登录]",""
+"passed","Mon Jun 29 11:48:08 CST 2020","Mon Jun 29 11:48:08 CST 2020","375","TestCase.maintain","test_maintain","TestMaintain","","","查询最新创建并删除","
+        查询最新创建，查看详情并删除该实例
+        "
+"passed","Mon Jun 29 11:48:07 CST 2020","Mon Jun 29 11:48:07 CST 2020","287","TestCase.login","test_login","TestLogin","","","test_login[账号为空登录]",""
+"passed","Mon Jun 29 11:48:06 CST 2020","Mon Jun 29 11:48:06 CST 2020","342","TestCase.assay","test_assay","TestAssay","","","查询最新创建并删除","
+        查询最新创建，查看详情并删除该实例
+        "
+"passed","Mon Jun 29 11:48:05 CST 2020","Mon Jun 29 11:48:06 CST 2020","170","TestCase.assay","test_assay","TestAssay","","","创建检定计划","
+        创建检定计划正向流程
+        "
+"passed","Mon Jun 29 11:48:06 CST 2020","Mon Jun 29 11:48:06 CST 2020","278","TestCase.login","test_login","TestLogin","","","test_login[账号错误登录]",""
+"passed","Mon Jun 29 11:48:08 CST 2020","Mon Jun 29 11:48:08 CST 2020","132","TestCase.maintain","test_maintain","TestMaintain","","","默认查询保养计划列表","
+        默认查询
+        "

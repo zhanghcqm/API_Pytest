@@ -1,7 +1,6 @@
-# -*- coding: utf-8 -*-
-# @Time    : 2018/7/19 下午5:23
-# @Author  : WangJuan
-# @File    : Log.py
+# -*- coding:utf-8 -*-
+# @Time   : 2019/2/23 11:05
+# @Author : zhc
 
 """
 封装log方法
@@ -9,95 +8,46 @@
 """
 
 import logging
-import os
+import os.path
 import time
 
-LEVELS = {
-    'debug': logging.DEBUG,
-    'info': logging.INFO,
-    'warning': logging.WARNING,
-    'error': logging.ERROR,
-    'critical': logging.CRITICAL
-}
+#log_path是存放日志的路径
+cur_path= os.path.dirname(os.path.abspath(__file__))
+log_path= os.path.join(os.path.dirname(cur_path),"Log")
 
-logger = logging.getLogger()
-level = 'default'
+class Logger(object):
+    def __init__(self, logger):
+        """
+        指定保存日志的文件路径，日志级别，以及调用文件
+        将日志存入到指定的文件中
+        :param logger:
+        """
 
+        # 创建一个logger
+        self.logger = logging.getLogger(logger)
+        self.logger.setLevel(logging.DEBUG)
 
-def create_file(filename):
-    path = filename[0:filename.rfind('/')]
-    if not os.path.isdir(path):
-        os.makedirs(path)
-    if not os.path.isfile(filename):
-        fd = open(filename, mode='w', encoding='utf-8')
-        fd.close()
-    else:
-        pass
+        # 创建一个handler，用于写入日志文件
+        rq = time.strftime('%Y%m%d', time.localtime(time.time()))
+        log_name = os.path.join(log_path,'%s.log'% rq)
 
+        fh = logging.FileHandler(log_name,encoding='utf-8')
+        fh.setLevel(logging.INFO)
 
-def set_handler(levels):
-    if levels == 'error':
-        logger.addHandler(MyLog.err_handler)
-    logger.addHandler(MyLog.handler)
+        # 再创建一个handler，用于输出到控制台
+        ch = logging.StreamHandler()
+        ch.setLevel(logging.INFO)
 
+        # 定义handler的输出格式
+        formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+        fh.setFormatter(formatter)
+        ch.setFormatter(formatter)
 
-def remove_handler(levels):
-    if levels == 'error':
-        logger.removeHandler(MyLog.err_handler)
-    logger.removeHandler(MyLog.handler)
+        # 给logger添加handler
+        self.logger.addHandler(fh)
+        self.logger.addHandler(ch)
 
+    def getlog(self):
+        return self.logger
 
-def get_current_time():
-    return time.strftime(MyLog.date, time.localtime(time.time()))
-
-
-class MyLog:
-    path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    log_file = path+'/Log/log.log'
-    err_file = path+'/Log/err.log'
-    logger.setLevel(LEVELS.get(level, logging.NOTSET))
-    create_file(log_file)
-    create_file(err_file)
-    date = '%Y-%m-%d %H:%M:%S'
-
-    handler = logging.FileHandler(log_file, encoding='utf-8')
-    err_handler = logging.FileHandler(err_file, encoding='utf-8')
-
-    @staticmethod
-    def debug(log_meg):
-        set_handler('debug')
-        logger.debug("[DEBUG " + get_current_time() + "]" + log_meg)
-        remove_handler('debug')
-
-    @staticmethod
-    def info(log_meg):
-        set_handler('info')
-        logger.info("[INFO " + get_current_time() + "]" + log_meg)
-        remove_handler('info')
-
-    @staticmethod
-    def warning(log_meg):
-        set_handler('warning')
-        logger.warning("[WARNING " + get_current_time() + "]" + log_meg)
-        remove_handler('warning')
-
-    @staticmethod
-    def error(log_meg):
-        set_handler('error')
-        logger.error("[ERROR " + get_current_time() + "]" + log_meg)
-        remove_handler('error')
-
-    @staticmethod
-    def critical(log_meg):
-        set_handler('critical')
-        logger.error("[CRITICAL " + get_current_time() + "]" + log_meg)
-        remove_handler('critical')
-
-
-if __name__ == "__main__":
-    MyLog.debug("This is debug message")
-    MyLog.info("This is info message")
-    MyLog.warning("This is warning message")
-    MyLog.error("This is error")
-    MyLog.critical("This is critical message")
 

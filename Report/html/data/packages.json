@@ -1,0 +1,177 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "TestCase",
+    "children" : [ {
+      "name" : "assay.test_assay",
+      "children" : [ {
+        "name" : "默认查询检定计划列表",
+        "uid" : "128351a469c4ffe2",
+        "parentUid" : "5de7d12ee75543d68805045c72ca59c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593402485764,
+          "stop" : 1593402485884,
+          "duration" : 120
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "创建检定计划",
+        "uid" : "3c5fe6b0dddbde2d",
+        "parentUid" : "5de7d12ee75543d68805045c72ca59c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593402485891,
+          "stop" : 1593402486061,
+          "duration" : 170
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "查询最新创建并删除",
+        "uid" : "f46f7816be99bf4",
+        "parentUid" : "5de7d12ee75543d68805045c72ca59c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593402486066,
+          "stop" : 1593402486408,
+          "duration" : 342
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "assay.test_assay"
+    }, {
+      "name" : "login.test_login",
+      "children" : [ {
+        "name" : "test_login[正常登录]",
+        "uid" : "1ee7cf389b4298cc",
+        "parentUid" : "b97448ee628d0a80af54887c4be4dc94",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593402486414,
+          "stop" : 1593402486697,
+          "duration" : 283
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'bearer'", "'Password888'", "'zhcpc6'" ]
+      }, {
+        "name" : "test_login[账号错误登录]",
+        "uid" : "35b15040b0bcd053",
+        "parentUid" : "b97448ee628d0a80af54887c4be4dc94",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593402486705,
+          "stop" : 1593402486983,
+          "duration" : 278
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'登录失败，请检查参数！'", "'Password888'", "'zhcpc'" ]
+      }, {
+        "name" : "test_login[密码错误登录]",
+        "uid" : "3e6f80fb5403cd93",
+        "parentUid" : "b97448ee628d0a80af54887c4be4dc94",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593402486990,
+          "stop" : 1593402487284,
+          "duration" : 294
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'登录失败，请检查参数！'", "'8'", "'zhcpc6'" ]
+      }, {
+        "name" : "test_login[密码为空登录]",
+        "uid" : "3d1ec75ac84cfe62",
+        "parentUid" : "b97448ee628d0a80af54887c4be4dc94",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593402487291,
+          "stop" : 1593402487570,
+          "duration" : 279
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'登录失败，请检查参数！'", "''", "'zhcpc6'" ]
+      }, {
+        "name" : "test_login[账号为空登录]",
+        "uid" : "909d6ff19ef88d61",
+        "parentUid" : "b97448ee628d0a80af54887c4be4dc94",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593402487580,
+          "stop" : 1593402487867,
+          "duration" : 287
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'登录失败，请检查参数！'", "'Password888'", "''" ]
+      }, {
+        "name" : "test_login[账号存在空格登录]",
+        "uid" : "c4827306b94e1024",
+        "parentUid" : "b97448ee628d0a80af54887c4be4dc94",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593402487874,
+          "stop" : 1593402488149,
+          "duration" : 275
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'登录失败，请检查参数！'", "'Password888'", "'zhcpc 6'" ]
+      } ],
+      "uid" : "login.test_login"
+    }, {
+      "name" : "maintain.test_maintain",
+      "children" : [ {
+        "name" : "默认查询保养计划列表",
+        "uid" : "5a6ac315816c30a2",
+        "parentUid" : "3930a6b325fc68460824aeffd02fc858",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593402488158,
+          "stop" : 1593402488290,
+          "duration" : 132
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "创建保养计划",
+        "uid" : "10cfc531325ee8be",
+        "parentUid" : "3930a6b325fc68460824aeffd02fc858",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593402488296,
+          "stop" : 1593402488445,
+          "duration" : 149
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "查询最新创建并删除",
+        "uid" : "e282fd8354578052",
+        "parentUid" : "3930a6b325fc68460824aeffd02fc858",
+        "status" : "passed",
+        "time" : {
+          "start" : 1593402488449,
+          "stop" : 1593402488824,
+          "duration" : 375
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "maintain.test_maintain"
+    } ],
+    "uid" : "9fa14e2db0d1ecbd3a4c5f0825d2ac34"
+  } ]
+}

@@ -1,0 +1,82 @@
+{
+  "uid" : "bf8b9cbb63f1b20c",
+  "name" : "test_login[账号错误登录]",
+  "fullName" : "TestCase.login.test_login.TestLogin#test_login",
+  "historyId" : "7fc2472a13f2f2a4d12d8685c1843a52",
+  "time" : {
+    "start" : 1593401825868,
+    "stop" : 1593401826157,
+    "duration" : 289
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "71cc963cf695f802",
+      "name" : "log",
+      "source" : "71cc963cf695f802.txt",
+      "type" : "text/plain",
+      "size" : 150
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "登录用例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase.login"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "58SUO076"
+  }, {
+    "name" : "thread",
+    "value" : "33700-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.login.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected",
+    "value" : "'登录失败，请检查参数！'"
+  }, {
+    "name" : "password",
+    "value" : "'Password888'"
+  }, {
+    "name" : "username",
+    "value" : "'zhcpc'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bf8b9cbb63f1b20c.json",
+  "parameterValues" : [ "'登录失败，请检查参数！'", "'Password888'", "'zhcpc'" ]
+}

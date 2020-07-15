@@ -1,61 +1,53 @@
-# -*- coding: utf-8 -*-
-# @Time    : 2018/7/24 下午3:33
-# @Author  : WangJuan
-# @File    : Session.py
+# -*- coding:utf-8 -*-
+# @Time   : 2020/6/18 10:12
+# @Author : zhc
+"""
+封装获取用户token方法
 
 """
-封装获取cookie方法
+import requests,json
 
-"""
-
-import requests
-
-from Common import Log
+from Common.Log import Logger
 from Conf import Config
 
-
+config = Config.Config()
 class Session:
     def __init__(self):
-        self.config = Config.Config()
-        self.log = Log.MyLog()
+        self.log = Logger(logger="Session").getlog()
 
-    def get_session(self, env):
+    def get_token(self):
         """
-        获取session
-        :param env: 环境变量
+        获取token,userId
         :return:
         """
-        headers = {
-            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko)\
-                          Chrome/67.0.3396.99 Safari/537.36",
-            "Content-Type": "application/x-www-form-urlencoded"
+        url = config.url + "/authorization-server/oauth/token"
+        header = {
+            "Authorization": "Basic dGVzdF9jbGllbnQ6dGVzdF9zZWNyZXQ="
         }
+        params = {
+            "scope": "read",
+            "grant_type": "password",
+            "username": config.username,
+            "password": config.password
+        }
+        res = requests.post(url, params, headers=header)
 
-        if env == "debug":
-            login_url = 'http://' + self.config.loginHost_debug
-            parm = self.config.loginInfo_debug
+        try:
+            token = res.json()["access_token"]
+            userId = str(res.json()["userId"])
+            self.log.info("get token,useId successfully!")
+            config.set_conf("identity", "token", token)
+            config.set_conf("identity", "userId", userId)
 
-            session_debug = requests.session()
-            response = session_debug.post(login_url, parm, headers=headers)
-            print(response.cookies)
-            self.log.debug('cookies: %s' % response.cookies.get_dict())
-            return response.cookies.get_dict()
+        except requests.RequestException as e:
+            self.log.error("identity failed: "% e)
+            token = userId =''
 
-        elif env == "release":
-            login_url = 'http://' + self.config.loginHost_release
-            parm = self.config.loginInfo_release
+        return token,userId
 
-            session_release = requests.session()
-            response = session_release.post(login_url, parm, headers=headers)
-            print(response.cookies)
-            self.log.debug('cookies: %s' % response.cookies.get_dict())
-            return response.cookies.get_dict()
-
-        else:
-            print("get cookies error")
-            self.log.error('get cookies error, please checkout!!!')
-
-
+#
 if __name__ == '__main__':
     ss = Session()
-    ss.get_session('debug')
+    ss.get_token()
+
+
