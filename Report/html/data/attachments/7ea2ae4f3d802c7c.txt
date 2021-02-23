@@ -1,6 +1,0 @@
-INFO     TestMaintain:test_maintain.py:61 查询接口请求结果：处理成功
-INFO     TestMaintain:test_maintain.py:67 最新创建的保养计划名为：保养计划mtOb
-INFO     TestMaintain:test_maintain.py:71 获取要查看的计划Id：106
-INFO     TestMaintain:test_maintain.py:73 ------保养计划详情接口-----
-INFO     TestMaintain:test_maintain.py:76 查看计划详情请求结果：处理成功
-INFO     TestMaintain:test_maintain.py:86 删除接口请求结果：处理成功

@@ -1,7 +1,0 @@
-INFO     TestAssay:test_assay.py:58 查询接口请求结果：处理成功
-INFO     TestAssay:test_assay.py:64 最新创建的检定计划名为：检定计划iLan
-INFO     TestAssay:test_assay.py:68 提取到的计划Id：205
-INFO     TestAssay:test_assay.py:70 ------保养计划详情接口-----
-INFO     TestAssay:test_assay.py:73 查看计划详情请求结果：处理成功
-INFO     TestAssay:test_assay.py:82 ------删除检定计划接口-----
-INFO     TestAssay:test_assay.py:84 删除接口请求结果：处理成功

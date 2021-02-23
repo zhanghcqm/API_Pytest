@@ -1,12 +1,11 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# @Time: 2020/6/24 14:40
 # @Author: zhc
 
 
 
 from Conf import Config
-import requests,json
+import requests,json,base64
 
 config = Config.Config()
 class Login:
@@ -18,9 +17,10 @@ class Login:
         :param password: 密码
         :return:
         """
+        authorization=str(base64.b64encode(f'{"test_client"}:{"test_secret"}'.encode('utf-8')), 'utf-8')
         url = config.url + "/authorization-server/oauth/token"
         header = {
-            "Authorization": "Basic dGVzdF9jbGllbnQ6dGVzdF9zZWNyZXQ="
+            "Authorization": f"Basic {authorization}"
         }
         params = {
             "scope": "read",
@@ -41,6 +41,6 @@ class Login:
 
 
 if __name__ == '__main__':
-    s=Login().login('zhcpcsp6','Password888')
+    s=Login().login('zhc2','123456')
     print(s)
 

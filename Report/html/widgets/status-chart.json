@@ -1,121 +1,171 @@
 [ {
-  "uid" : "1ee7cf389b4298cc",
-  "name" : "test_login[正常登录]",
-  "time" : {
-    "start" : 1593402486414,
-    "stop" : 1593402486697,
-    "duration" : 283
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "10cfc531325ee8be",
-  "name" : "创建保养计划",
-  "time" : {
-    "start" : 1593402488296,
-    "stop" : 1593402488445,
-    "duration" : 149
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "128351a469c4ffe2",
-  "name" : "默认查询检定计划列表",
-  "time" : {
-    "start" : 1593402485764,
-    "stop" : 1593402485884,
-    "duration" : 120
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3d1ec75ac84cfe62",
+  "uid" : "758c8d82eab39035",
   "name" : "test_login[密码为空登录]",
   "time" : {
-    "start" : 1593402487291,
-    "stop" : 1593402487570,
-    "duration" : 279
+    "start" : 1612762389899,
+    "stop" : 1612762390211,
+    "duration" : 312
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "3e6f80fb5403cd93",
+  "uid" : "f2f7a35099b32edd",
+  "name" : "查询维护单列表",
+  "time" : {
+    "start" : 1612762390966,
+    "stop" : 1612762391131,
+    "duration" : 165
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dcff3ffc751db8c2",
   "name" : "test_login[密码错误登录]",
   "time" : {
-    "start" : 1593402486990,
-    "stop" : 1593402487284,
-    "duration" : 294
+    "start" : 1612762389576,
+    "stop" : 1612762389892,
+    "duration" : 316
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "c4827306b94e1024",
-  "name" : "test_login[账号存在空格登录]",
+  "uid" : "b957e65532543188",
+  "name" : "创建设备台账",
   "time" : {
-    "start" : 1593402487874,
-    "stop" : 1593402488149,
-    "duration" : 275
+    "start" : 1612762387697,
+    "stop" : 1612762387891,
+    "duration" : 194
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "e282fd8354578052",
-  "name" : "查询最新创建并删除",
+  "uid" : "27878d5b9975e225",
+  "name" : "查询最新创建",
   "time" : {
-    "start" : 1593402488449,
-    "stop" : 1593402488824,
-    "duration" : 375
+    "start" : 1612762387895,
+    "stop" : 1612762388067,
+    "duration" : 172
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "909d6ff19ef88d61",
+  "uid" : "930c54c3fdbb6381",
+  "name" : "维护单生死过程",
+  "time" : {
+    "start" : 1612762390830,
+    "stop" : 1612762390953,
+    "duration" : 123
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "f2e3ee369a45002",
+  "name" : "更新设备台账",
+  "time" : {
+    "start" : 1612762388248,
+    "stop" : 1612762388317,
+    "duration" : 69
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "738d53394ab33c1d",
   "name" : "test_login[账号为空登录]",
   "time" : {
-    "start" : 1593402487580,
-    "stop" : 1593402487867,
-    "duration" : 287
+    "start" : 1612762390218,
+    "stop" : 1612762390520,
+    "duration" : 302
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "f46f7816be99bf4",
-  "name" : "查询最新创建并删除",
-  "time" : {
-    "start" : 1593402486066,
-    "stop" : 1593402486408,
-    "duration" : 342
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3c5fe6b0dddbde2d",
-  "name" : "创建检定计划",
-  "time" : {
-    "start" : 1593402485891,
-    "stop" : 1593402486061,
-    "duration" : 170
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "35b15040b0bcd053",
+  "uid" : "6eacf257973f0fe2",
   "name" : "test_login[账号错误登录]",
   "time" : {
-    "start" : 1593402486705,
-    "stop" : 1593402486983,
-    "duration" : 278
+    "start" : 1612762389269,
+    "stop" : 1612762389566,
+    "duration" : 297
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "5a6ac315816c30a2",
-  "name" : "默认查询保养计划列表",
+  "uid" : "c34a9010ad54fd14",
+  "name" : "删除设备台账",
   "time" : {
-    "start" : 1593402488158,
-    "stop" : 1593402488290,
-    "duration" : 132
+    "start" : 1612762388604,
+    "stop" : 1612762388879,
+    "duration" : 275
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b892c22523d08383",
+  "name" : "test_login[正常登录]",
+  "time" : {
+    "start" : 1612762388908,
+    "stop" : 1612762389261,
+    "duration" : 353
   },
   "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "50daeef4f5ec23c7",
+  "name" : "停用设备台账",
+  "time" : {
+    "start" : 1612762388162,
+    "stop" : 1612762388244,
+    "duration" : 82
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6a2116a76ab208ff",
+  "name" : "维护单维护验收流程",
+  "time" : {
+    "start" : 1612762391235,
+    "stop" : 1612762391327,
+    "duration" : 92
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "ccb34e4e471324b1",
+  "name" : "test_login[账号存在空格登录]",
+  "time" : {
+    "start" : 1612762390528,
+    "stop" : 1612762390824,
+    "duration" : 296
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b5c16ab4736dd82c",
+  "name" : "获取最新创建的设备Id",
+  "time" : {
+    "start" : 1612762388072,
+    "stop" : 1612762388158,
+    "duration" : 86
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8742dac4a9f01e68",
+  "name" : "启用设备台账",
+  "time" : {
+    "start" : 1612762388522,
+    "stop" : 1612762388600,
+    "duration" : 78
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "98d3513bea170e61",
+  "name" : "维护单审批失败后提交",
+  "time" : {
+    "start" : 1612762391135,
+    "stop" : 1612762391224,
+    "duration" : 89
+  },
+  "status" : "failed",
   "severity" : "normal"
 } ]

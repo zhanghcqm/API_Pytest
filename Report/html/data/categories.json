@@ -1,5 +1,86 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert '请选择设备分类' == '处理成功'\n  - 请选择设备分类\n  + 处理成功",
+      "children" : [ {
+        "name" : "更新设备台账",
+        "uid" : "f2e3ee369a45002",
+        "parentUid" : "cd95a012acd47095e7dd655795d9629f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1612762388248,
+          "stop" : 1612762388317,
+          "duration" : 69
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cd95a012acd47095e7dd655795d9629f"
+    }, {
+      "name" : "AssertionError: assert '设备有关联的计划或者单据' == '处理成功'\n  - 设备有关联的计划或者单据\n  + 处理成功",
+      "children" : [ {
+        "name" : "删除设备台账",
+        "uid" : "c34a9010ad54fd14",
+        "parentUid" : "06bf3a465ee725a28c1bf46ebdc2e244",
+        "status" : "failed",
+        "time" : {
+          "start" : 1612762388604,
+          "stop" : 1612762388879,
+          "duration" : 275
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "06bf3a465ee725a28c1bf46ebdc2e244"
+    }, {
+      "name" : "AssertionError: assert '系统异常' == '处理成功'\n  - 系统异常\n  + 处理成功",
+      "children" : [ {
+        "name" : "维护单生死过程",
+        "uid" : "930c54c3fdbb6381",
+        "parentUid" : "86cf24a9ae12cfe25bb43e401b3712e6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1612762390830,
+          "stop" : 1612762390953,
+          "duration" : 123
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "维护单审批失败后提交",
+        "uid" : "98d3513bea170e61",
+        "parentUid" : "86cf24a9ae12cfe25bb43e401b3712e6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1612762391135,
+          "stop" : 1612762391224,
+          "duration" : 89
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "维护单维护验收流程",
+        "uid" : "6a2116a76ab208ff",
+        "parentUid" : "86cf24a9ae12cfe25bb43e401b3712e6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1612762391235,
+          "stop" : 1612762391327,
+          "duration" : 92
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "86cf24a9ae12cfe25bb43e401b3712e6"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
 }

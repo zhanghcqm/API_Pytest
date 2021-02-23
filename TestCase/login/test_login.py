@@ -1,9 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# @Time: 2020/6/28 13:37
 # @Author: zhc
 
-import pytest,allure,requests
+import pytest,allure
 from Common.Log import Logger
 from Common.Tools import ReadYaml
 from Api.Login import Login
@@ -31,4 +30,8 @@ class TestLogin:
         self.log.info('请求结果：%s' % result)
 
         assert result == expected
+
+if __name__ == '__main__':
+    TestLogin.test_login()
+
 

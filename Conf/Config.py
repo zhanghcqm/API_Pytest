@@ -1,5 +1,4 @@
 # -*- coding:utf-8 -*-
-# @Time   : 2020/6/18 10:12
 # @Author : zhc
 
 from configparser import ConfigParser
@@ -7,6 +6,7 @@ import os
 
 class Config:
     path_dir = str(os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir)))
+
 
     def __init__(self):
         """

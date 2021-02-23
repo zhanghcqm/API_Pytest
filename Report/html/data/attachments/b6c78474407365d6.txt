@@ -1,2 +1,0 @@
-INFO     TestMaintain:test_maintain.py:30 ------获取保养计划列表接口-----
-INFO     TestMaintain:test_maintain.py:33 默认查询接口请求结果：处理成功

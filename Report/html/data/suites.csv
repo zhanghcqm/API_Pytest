@@ -1,25 +1,44 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Mon Jun 29 11:48:06 CST 2020","Mon Jun 29 11:48:06 CST 2020","283","TestCase.login","test_login","TestLogin","","","test_login[正常登录]",""
-"passed","Mon Jun 29 11:48:08 CST 2020","Mon Jun 29 11:48:08 CST 2020","149","TestCase.maintain","test_maintain","TestMaintain","","","创建保养计划","
-        创建保养计划正向流程
+"passed","Mon Feb 08 13:33:09 CST 2021","Mon Feb 08 13:33:10 CST 2021","312","TestCase.login","test_login","TestLogin","","","test_login[密码为空登录]",""
+"passed","Mon Feb 08 13:33:10 CST 2021","Mon Feb 08 13:33:11 CST 2021","165","TestCase.maintain","test_maintain","TestMaintain","","","查询维护单列表","
+        查询最新创建，查看维护单详情
         "
-"passed","Mon Jun 29 11:48:05 CST 2020","Mon Jun 29 11:48:05 CST 2020","120","TestCase.assay","test_assay","TestAssay","","","默认查询检定计划列表","
-        默认查询
+"passed","Mon Feb 08 13:33:09 CST 2021","Mon Feb 08 13:33:09 CST 2021","316","TestCase.login","test_login","TestLogin","","","test_login[密码错误登录]",""
+"passed","Mon Feb 08 13:33:07 CST 2021","Mon Feb 08 13:33:07 CST 2021","194","TestCase.device","test_device","TestDevice","","","创建设备台账","
+        创建设备台账正向流程
         "
-"passed","Mon Jun 29 11:48:07 CST 2020","Mon Jun 29 11:48:07 CST 2020","279","TestCase.login","test_login","TestLogin","","","test_login[密码为空登录]",""
-"passed","Mon Jun 29 11:48:06 CST 2020","Mon Jun 29 11:48:07 CST 2020","294","TestCase.login","test_login","TestLogin","","","test_login[密码错误登录]",""
-"passed","Mon Jun 29 11:48:07 CST 2020","Mon Jun 29 11:48:08 CST 2020","275","TestCase.login","test_login","TestLogin","","","test_login[账号存在空格登录]",""
-"passed","Mon Jun 29 11:48:08 CST 2020","Mon Jun 29 11:48:08 CST 2020","375","TestCase.maintain","test_maintain","TestMaintain","","","查询最新创建并删除","
-        查询最新创建，查看详情并删除该实例
+"passed","Mon Feb 08 13:33:07 CST 2021","Mon Feb 08 13:33:08 CST 2021","172","TestCase.device","test_device","TestDevice","","","查询最新创建","
+        查询最新创建，查看台账详情
         "
-"passed","Mon Jun 29 11:48:07 CST 2020","Mon Jun 29 11:48:07 CST 2020","287","TestCase.login","test_login","TestLogin","","","test_login[账号为空登录]",""
-"passed","Mon Jun 29 11:48:06 CST 2020","Mon Jun 29 11:48:06 CST 2020","342","TestCase.assay","test_assay","TestAssay","","","查询最新创建并删除","
-        查询最新创建，查看详情并删除该实例
+"failed","Mon Feb 08 13:33:10 CST 2021","Mon Feb 08 13:33:10 CST 2021","123","TestCase.maintain","test_maintain","TestMaintain","","","维护单生死过程","
+        创建草稿维护单、修改、删除
         "
-"passed","Mon Jun 29 11:48:05 CST 2020","Mon Jun 29 11:48:06 CST 2020","170","TestCase.assay","test_assay","TestAssay","","","创建检定计划","
-        创建检定计划正向流程
+"failed","Mon Feb 08 13:33:08 CST 2021","Mon Feb 08 13:33:08 CST 2021","69","TestCase.device","test_device","TestOperation","","","更新设备台账","
+        更新设备
+        :return:
         "
-"passed","Mon Jun 29 11:48:06 CST 2020","Mon Jun 29 11:48:06 CST 2020","278","TestCase.login","test_login","TestLogin","","","test_login[账号错误登录]",""
-"passed","Mon Jun 29 11:48:08 CST 2020","Mon Jun 29 11:48:08 CST 2020","132","TestCase.maintain","test_maintain","TestMaintain","","","默认查询保养计划列表","
-        默认查询
+"passed","Mon Feb 08 13:33:10 CST 2021","Mon Feb 08 13:33:10 CST 2021","302","TestCase.login","test_login","TestLogin","","","test_login[账号为空登录]",""
+"passed","Mon Feb 08 13:33:09 CST 2021","Mon Feb 08 13:33:09 CST 2021","297","TestCase.login","test_login","TestLogin","","","test_login[账号错误登录]",""
+"failed","Mon Feb 08 13:33:08 CST 2021","Mon Feb 08 13:33:08 CST 2021","275","TestCase.device","test_device","TestOperation","","","删除设备台账","
+        再次停用设备并删除
+        :return:
+        "
+"passed","Mon Feb 08 13:33:08 CST 2021","Mon Feb 08 13:33:09 CST 2021","353","TestCase.login","test_login","TestLogin","","","test_login[正常登录]",""
+"passed","Mon Feb 08 13:33:08 CST 2021","Mon Feb 08 13:33:08 CST 2021","82","TestCase.device","test_device","TestOperation","","","停用设备台账","
+        停用设备
+        :return:
+        "
+"failed","Mon Feb 08 13:33:11 CST 2021","Mon Feb 08 13:33:11 CST 2021","92","TestCase.maintain","test_maintain","TestMaintain","","","维护单维护验收流程","
+        维护单维护流
+        "
+"passed","Mon Feb 08 13:33:10 CST 2021","Mon Feb 08 13:33:10 CST 2021","296","TestCase.login","test_login","TestLogin","","","test_login[账号存在空格登录]",""
+"passed","Mon Feb 08 13:33:08 CST 2021","Mon Feb 08 13:33:08 CST 2021","86","TestCase.device","test_device","TestOperation","","","获取最新创建的设备Id","
+        根据设备编号查询
+        "
+"passed","Mon Feb 08 13:33:08 CST 2021","Mon Feb 08 13:33:08 CST 2021","78","TestCase.device","test_device","TestOperation","","","启用设备台账","
+        启用设备
+        :return:
+        "
+"failed","Mon Feb 08 13:33:11 CST 2021","Mon Feb 08 13:33:11 CST 2021","89","TestCase.maintain","test_maintain","TestMaintain","","","维护单审批失败后提交","
+        维护单审批流
         "

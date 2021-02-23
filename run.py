@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# @Time: 2020/6/24 16:50
+
 # @Author: zhc
 
 """
@@ -28,7 +28,7 @@ if __name__ == '__main__':
     html_report_path = conf.html_report_path
 
     # 定义测试集
-    args = ['-s', '-q', '--alluredir', xml_report_path]
+    args = ['-s', '-q', '--alluredir', xml_report_path,'--clean-alluredir']
     pytest.main(args)
 
     cmd = 'allure generate %s -o %s --clean' % (xml_report_path, html_report_path)
@@ -36,7 +36,7 @@ if __name__ == '__main__':
     try:
         shell.invoke(cmd)
     except Exception:
-        log.error('执行用例失败，请检查环境配置')
+        log.error('执行用例失败，请检查环境数据')
         raise
 
     # try:

@@ -1,11 +1,10 @@
 # -*- coding:utf-8 -*-
-# @Time   : 2020/6/18 10:12
 # @Author : zhc
 """
 封装获取用户token方法
 
 """
-import requests,json
+import requests,json,base64
 
 from Common.Log import Logger
 from Conf import Config
@@ -21,8 +20,9 @@ class Session:
         :return:
         """
         url = config.url + "/authorization-server/oauth/token"
+        auth = str(base64.b64encode(f'{"test_client"}:{"test_secret"}'.encode('utf-8')), 'utf-8')
         header = {
-            "Authorization": "Basic dGVzdF9jbGllbnQ6dGVzdF9zZWNyZXQ="
+            "Authorization": "Basic "+ auth
         }
         params = {
             "scope": "read",
@@ -45,7 +45,7 @@ class Session:
 
         return token,userId
 
-#
+
 if __name__ == '__main__':
     ss = Session()
     ss.get_token()

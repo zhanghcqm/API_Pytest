@@ -1,2 +1,0 @@
-INFO     TestLogin:test_login.py:29 ------用户登录接口-----
-INFO     TestLogin:test_login.py:31 请求结果：登录失败，请检查参数！

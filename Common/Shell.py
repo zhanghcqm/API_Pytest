@@ -1,14 +1,11 @@
 # -*- coding:utf-8 -*-
-# @Time   : 2020/6/18 10:12
 # @Author : zhc
 
 """
 封装执行shell语句方法
-
 """
 
 import subprocess
-
 
 class Shell:
     @staticmethod

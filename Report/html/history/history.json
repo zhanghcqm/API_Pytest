@@ -1,5 +1,5 @@
 {
-  "631d553de7d126ec37f0778dffe4d8f7" : {
+  "d6cb150ee0ff83e90f1d61bb1c2b5758" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -9,12 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "128351a469c4ffe2",
+      "uid" : "738d53394ab33c1d",
       "status" : "passed",
       "time" : {
-        "start" : 1593402485764,
-        "stop" : 1593402485884,
-        "duration" : 120
+        "start" : 1612762390218,
+        "stop" : 1612762390520,
+        "duration" : 302
       }
     } ]
   },
@@ -28,16 +28,36 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3e6f80fb5403cd93",
+      "uid" : "dcff3ffc751db8c2",
       "status" : "passed",
       "time" : {
-        "start" : 1593402486990,
-        "stop" : 1593402487284,
-        "duration" : 294
+        "start" : 1612762389576,
+        "stop" : 1612762389892,
+        "duration" : 316
       }
     } ]
   },
-  "d6cb150ee0ff83e90f1d61bb1c2b5758" : {
+  "51929958e7d44bd47d25d3eecc19f090" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c34a9010ad54fd14",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '设备有关联的计划或者单据' == '处理成功'\n  - 设备有关联的计划或者单据\n  + 处理成功",
+      "time" : {
+        "start" : 1612762388604,
+        "stop" : 1612762388879,
+        "duration" : 275
+      }
+    } ]
+  },
+  "db4bfd25848415e93cdaaf1d3735e726" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -47,31 +67,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "909d6ff19ef88d61",
+      "uid" : "b957e65532543188",
       "status" : "passed",
       "time" : {
-        "start" : 1593402487580,
-        "stop" : 1593402487867,
-        "duration" : 287
+        "start" : 1612762387697,
+        "stop" : 1612762387891,
+        "duration" : 194
       }
     } ]
   },
   "69c760fb21638dd44b9e89a5b7f79b4a" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "10cfc531325ee8be",
-      "status" : "passed",
+      "uid" : "930c54c3fdbb6381",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '系统异常' == '处理成功'\n  - 系统异常\n  + 处理成功",
       "time" : {
-        "start" : 1593402488296,
-        "stop" : 1593402488445,
-        "duration" : 149
+        "start" : 1612762390830,
+        "stop" : 1612762390953,
+        "duration" : 123
       }
     } ]
   },
@@ -85,50 +106,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1ee7cf389b4298cc",
+      "uid" : "b892c22523d08383",
       "status" : "passed",
       "time" : {
-        "start" : 1593402486414,
-        "stop" : 1593402486697,
-        "duration" : 283
+        "start" : 1612762388908,
+        "stop" : 1612762389261,
+        "duration" : 353
       }
     } ]
   },
-  "7fc2472a13f2f2a4d12d8685c1843a52" : {
+  "15ce85917f13153d1cdd2d23f522dcae" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "35b15040b0bcd053",
-      "status" : "passed",
+      "uid" : "f2e3ee369a45002",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '请选择设备分类' == '处理成功'\n  - 请选择设备分类\n  + 处理成功",
       "time" : {
-        "start" : 1593402486705,
-        "stop" : 1593402486983,
-        "duration" : 278
-      }
-    } ]
-  },
-  "86d039a69771be4b4af290185404959a" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "e282fd8354578052",
-      "status" : "passed",
-      "time" : {
-        "start" : 1593402488449,
-        "stop" : 1593402488824,
-        "duration" : 375
+        "start" : 1612762388248,
+        "stop" : 1612762388317,
+        "duration" : 69
       }
     } ]
   },
@@ -142,31 +145,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c4827306b94e1024",
+      "uid" : "ccb34e4e471324b1",
       "status" : "passed",
       "time" : {
-        "start" : 1593402487874,
-        "stop" : 1593402488149,
-        "duration" : 275
-      }
-    } ]
-  },
-  "fe12b9617fac1751e305d4840cf6552e" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "3d1ec75ac84cfe62",
-      "status" : "passed",
-      "time" : {
-        "start" : 1593402487291,
-        "stop" : 1593402487570,
-        "duration" : 279
+        "start" : 1612762390528,
+        "stop" : 1612762390824,
+        "duration" : 296
       }
     } ]
   },
@@ -180,16 +164,36 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5a6ac315816c30a2",
+      "uid" : "f2f7a35099b32edd",
       "status" : "passed",
       "time" : {
-        "start" : 1593402488158,
-        "stop" : 1593402488290,
-        "duration" : 132
+        "start" : 1612762390966,
+        "stop" : 1612762391131,
+        "duration" : 165
       }
     } ]
   },
-  "173b6534d1533dbc8f14ef34e19a4b32" : {
+  "9e16957a668fc9e52f01073f677a9c5b" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6a2116a76ab208ff",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '系统异常' == '处理成功'\n  - 系统异常\n  + 处理成功",
+      "time" : {
+        "start" : 1612762391235,
+        "stop" : 1612762391327,
+        "duration" : 92
+      }
+    } ]
+  },
+  "64df6c8c4e7e43bb06724455d0c45f8c" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -199,16 +203,36 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3c5fe6b0dddbde2d",
+      "uid" : "8742dac4a9f01e68",
       "status" : "passed",
       "time" : {
-        "start" : 1593402485891,
-        "stop" : 1593402486061,
-        "duration" : 170
+        "start" : 1612762388522,
+        "stop" : 1612762388600,
+        "duration" : 78
       }
     } ]
   },
-  "dc2c0350eeb1fae0f0b22dc01786e35b" : {
+  "41de90578473196339e869275583dda2" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "98d3513bea170e61",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '系统异常' == '处理成功'\n  - 系统异常\n  + 处理成功",
+      "time" : {
+        "start" : 1612762391135,
+        "stop" : 1612762391224,
+        "duration" : 89
+      }
+    } ]
+  },
+  "9ac609d6179a3c5c5c37de4191963d9f" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -218,12 +242,88 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f46f7816be99bf4",
+      "uid" : "b5c16ab4736dd82c",
       "status" : "passed",
       "time" : {
-        "start" : 1593402486066,
-        "stop" : 1593402486408,
-        "duration" : 342
+        "start" : 1612762388072,
+        "stop" : 1612762388158,
+        "duration" : 86
+      }
+    } ]
+  },
+  "24742073885469df4b3071e903b03339" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "50daeef4f5ec23c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612762388162,
+        "stop" : 1612762388244,
+        "duration" : 82
+      }
+    } ]
+  },
+  "7fc2472a13f2f2a4d12d8685c1843a52" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6eacf257973f0fe2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612762389269,
+        "stop" : 1612762389566,
+        "duration" : 297
+      }
+    } ]
+  },
+  "fe12b9617fac1751e305d4840cf6552e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "758c8d82eab39035",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612762389899,
+        "stop" : 1612762390211,
+        "duration" : 312
+      }
+    } ]
+  },
+  "c6769f41a73bc3f179bdd78e3e4df589" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "27878d5b9975e225",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612762387895,
+        "stop" : 1612762388067,
+        "duration" : 172
       }
     } ]
   }

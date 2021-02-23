@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/API_Automation.iml" filepath="$PROJECT_DIR$/.idea/API_Automation.iml" />
-      <module fileurl="file://E:/hrun_auto_test/.idea/hrun_auto_test.iml" filepath="E:/hrun_auto_test/.idea/hrun_auto_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/API_Pytest.iml" filepath="$PROJECT_DIR$/.idea/API_Pytest.iml" />
     </modules>
   </component>
 </project>
