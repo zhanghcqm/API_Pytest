@@ -24,4 +24,4 @@ setuptools== 41.2.0
 sqlparse== 0.3.1
 synonyms== 3.10.2
 tornado==6.0.4
-urllib3==1.25.9
+urllib3==1.26.5
