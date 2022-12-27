@@ -20,7 +20,7 @@ requests== 2.23.0
 requests-toolbelt==	0.9.1
 scikit-learn==0.23.1
 scipy==1.5.0
-setuptools== 41.2.0
+setuptools== 65.5.1
 sqlparse== 0.3.1
 synonyms== 3.10.2
 tornado==6.0.4
